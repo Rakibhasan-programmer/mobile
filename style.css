@@ -1,0 +1,115 @@
+body{
+	overflow-x: hidden;
+}
+.first{
+	background-image:linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('img/back1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 8%;
+	padding-bottom: 10%;
+}
+.firstimage{
+	margin-top: -2%;
+}
+.text_first{
+	color: white;
+}
+.h1{
+	font-family: arial verdana;
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 0.80;
+}
+@media only screen and (max-width: 600px) {
+	.h1{
+	  font-size: 30px;
+	}
+  }
+.firstbutton{
+	background:#00bcd4;
+	color: white;
+	cursor: pointer;
+}
+.firstbutton:hover{
+	background: orange;
+	color: black;
+	box-shadow: 5px 5px white;
+	transition: all 1s;
+}
+
+/* SEcond */
+.second{
+	background: #43005d;
+}
+.secondone{
+	margin-top: -30%;
+}
+
+.secondtwo{
+    width: 300px;
+    margin-top: -35%;
+    margin-left: 70%;
+}
+
+.secondpadding{
+	padding-left: 10%;
+}
+.number1, .thirdnumber{
+	font-size: 100px;
+}
+.secondhead{
+	color: orange;
+	line-height: 0.90;
+	margin-bottom: 5%;
+	font-weight: bold;
+}
+
+/* Section 3 */
+.section3image{
+	margin-top: -15%;
+	margin-left: -5%;
+}
+.thirdhead{
+	color: #FF5722;
+	line-height: 0.90;
+	margin-bottom: 5%;
+	font-weight: bold;
+}
+
+
+.js{
+	font-weight: bold;
+	color: #ff5722;
+	font-size: 60px;
+}
+.jsp{
+	color: #531fb0;
+	font-weight: bold;
+}
+
+
+.sectionfive{
+	 background: linear-gradient(#9e176bc2,#000000fa), url(img/img2.jpg);
+}
+.fiveheader{
+	color: orange;
+	font-weight: bold;
+}
+
+.sec8{
+	background-image:  url('img/back2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sec8head{
+	color: orange;
+	font-weight: bolder;
+}
+.dark{
+	background: black;
+	font-size: 1.2rem;
+}
+.programmer:hover{
+	color: orange;
+	transition: all 1s;
+}
